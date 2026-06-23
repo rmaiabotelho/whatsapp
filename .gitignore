@@ -1,2 +1,23 @@
 *.xlsx
 *venv*
+# Ignorar arquivos do sistema operacional (ocultos)
+.DS_Store
+Thumbs.db
+*.local
+
+# Ignorar pastas de dependências / pacotes
+node_modules/
+vendor/
+.venv/
+__pycache__/
+
+# Ignorar chaves de API, senhas e configurações locais
+.env
+.env.local
+config.local.json
+*.pem
+*.key
+
+# Ignorar logs de erro e bancos de dados de teste
+*.log
+*.sqlite
