@@ -1,4 +1,5 @@
 *.xlsx
+*.csv
 *venv*
 # Ignorar arquivos do sistema operacional (ocultos)
 .DS_Store
